@@ -1,0 +1,500 @@
+   29  git add .
+   30  git commit -m "Added a stylesheet"
+   31  git branch
+   32  git checkout master
+   33  git merge add-css
+   34  git status
+   35  touch steps.txt
+   36  cd 'OneDrive - Capitec Bank Ltd'
+   37  cd Desktop
+   38  mkdir branching_assign
+   39  cd branching_assign
+   40  touch simple.html
+   41  git init
+   42  git status
+   43  git add .
+   44  git commit -m "Initial Commit"
+   45  git branch
+   46  git checkout -b "add-css"
+   47  git status
+   48  touch design.css
+   49  mv branching_assign branching_merging
+   50  git status
+   51  git add .
+   52  git commit -m "Added a stylesheet"
+   53  git branch
+   54  git checkout master
+   55  git merge add-css
+   56  git status
+   57  mv branching_assign branching_merging
+   58  touch steps.txt
+   59  mv branching_assign branching_merger
+   60  git add .
+   61  java -- version
+   62  mvn -v
+   63  git branch
+   64  git branch -m master main
+   65  git clone git@github.com:Umuzi-org/Bervely-Teffu-223-person-java.git
+   66  ls
+   67  git clone git@github.com:Umuzi-org/Bervely-Teffu-223-person-java.git
+   68  git clone https://github.com:Umuzi-org/Bervely-Teffu-223-person-java.git
+   69  git clone https://github.com/Umuzi-org/Bervely-Teffu-223-person-java
+   70  cd Bervely-Teffu-223-person-java
+   71  ls
+   72  ls
+   73  git add .
+   74  git commit -m "Updated person"
+   75  git push
+   76  mkdir git-basic-exercises
+   77  cd git-basic-exercises
+   78  ls -a
+   79  git init
+   80  ls -a
+   81  git status
+   82  touch README.md
+   83  ls -a
+   84  git log
+   85  git add README.md
+   86  git status
+   87  reset HEAD
+   88  cd git-basic-exercises
+   89  git reset HEAD <git-basic-exercises>
+   90  ls -a
+   91  git status
+   92  git commit -m "initial commit"
+   93  git log
+   94  nano README.md
+   95  cat README.md
+   96  git status
+   97  git commit -m "second commit"
+   98  git add
+   99  git commit -a "second commits"
+  100  git add README.md
+  101  git commit -m
+  102  git commot -a
+  103  git commit -a
+  104  cd git-basic-exercises
+  105  cat README>md
+  106  cat README.md
+  107  git commit -a "second commit"
+  108  nano README.md
+  109  git commit -m
+  110  git commit -m "third commit"
+  111  git commit -m "third commit"
+  112  git log
+  113  git status
+  114  git add git-basic-exercises
+  115  q
+  116  git q
+  117  git rm
+  118  mkdr git-basic-exercises
+  119  mkdir git-basic-exercises
+  120  cd git-basic-exercises
+  121  nano README.md
+  122  cat README.md
+  123  git status
+  124  git commit -m "second time"
+  125  git terminate
+  126  git commit bit-basic-exercises
+  127  git commit git-basic-exercises
+  128  git commit -a
+  129  git commit -m " retry" git-basic-exercises
+  130  git commit -a
+  131  rm .git/index.lock
+  132  commit -m "Seccond Commit"
+  133  git commit -m "Second Commit"
+  134  git log
+  135  nano README.md
+  136  git status
+  137  git commit -m" third commit"
+  138  git log
+  139  cat README.md
+  140  git commit -m " Third time"
+  141  git log
+  142  q
+  143  git checkout
+  144  git checkout ab20be42bd61550ff056fff8194ef1d4bc7ac2ea
+  145  cat README.md
+  146  git checkout main
+  147  git checkout git-basic-exercises
+  148  git checkout ab20be42bd61550ff056fff8194ef1d4bc7ac2ea
+  149  cat checkout main
+  150  cat README.md
+  151  git main
+  152  git branch
+  153  git branch milkshake-flavours
+  154  git branch
+  155  cd milkshake-flavours
+  156  ls
+  157  git checkout milkshake-flavours
+  158  nano milkshake-flavours
+  159  git status
+  160  git commit -m "added initial flavours"
+  161  git branch history
+  162  git log
+  163  git branch
+  164  history > history.txt
+  165  git commit -a "added history"
+  166  git commit  -m "added history"
+  167  git commit -a
+  168  rm person.class
+  169  rm person
+  170  rm person.java
+  171  rm personTest.class
+  172  rm personTest.java
+  173  ls
+  174  git add .
+  175  git commit -m "remove files"
+  176  git push
+  177  git branch person
+  178  git switch person
+  179  touch Person.java
+  180  touch PersonTest.java
+  181  ls
+  182  rm Person.class
+  183  rm PersonTest.class
+  184  ls
+  185  git status
+  186  git add .
+  187  git commit -m "Initial Commit"
+  188  git branch --set-upstream origin person
+  189  git push -u origin person
+  190  mkdir git-basic-exercises
+  191  cd git-basic-exercises
+  192  git init 
+  193  touch README.md
+  194  git add .
+  195  git commit -m "initial commit"
+  196  nano README.md
+  197  git add . 
+  198  git commit -m "Second Commit"
+  199  nano README.md
+  200  git add .
+  201  git commit -m "Second Commit"
+  202  git branch milkshake-flavours
+  203  git switch milkshake-flavours
+  204  nano milkshakes.md
+  205  git add .
+  206  git commit -m "added initial flavours"
+  207  git switch main
+  208  git branch
+  209  git switch master
+  210  git branch history
+  211  history > history.txt
+  212  git log
+  213  ls
+  214  rm history.txt
+  215  git switch history
+  216  history > history.txt
+  217  git add . 
+  218  git commit -m "added history"
+  219  git switch milkshake-flavours
+  220  nano README.md
+  221  git add .
+  222  git commit -m "random readme changes"
+  223  git switch history
+  224  rm README.md
+  225  echo "booya" > README.md
+  226  git add .
+  227  git commit -m "rewrote README"
+  228  git switch master
+  229  git log
+  230  git reset 689b25a2e82a73882fb022eb2cb4c3baf9574b88
+  231  git status
+  232  nano README.md
+  233  git add .
+  234  git commit -m "third commit"
+  235  git log
+  236  git switch milkshake-flavours
+  237  ls
+  238  git log
+  239  git branch -D history
+  240  git switch master
+  241  git branch
+  242  git branch -D milkshake-flavours
+  243  git branch milkshake-flavours
+  244  git switch milkshake-flavours
+  245  git log
+  246  nano milkshakes.md
+  247  git add .
+  248  git commit -m "added initial flavours"
+  249  nano README.md
+  250  nano README.md
+  251  git add .
+  252  git commit -m "random readme changes"
+  253  git switch master
+  254  git branch history
+  255  git switch history
+  256  history > history.txt
+  257  git add .
+  258  git commit -m "added history"
+  259  rm README.md
+  260  echo "booya" > README.md
+  261  git commit -m "rewrote READEME"
+  262  git add .
+  263  git commit -m "rewrote README"
+  264  git log
+  265  git switch milkshake-flavours
+  266  git log
+  267  git switch master
+  268  git merge milkshake-flavours
+  269  git merge history
+  270  nano README.md
+  271  git merge history
+  272  git config --global --add safe.directory 'C:/Users/CP035526/OneDrive - Capitec Bank Ltd/Desktop/git-basic-exercises
+  273  ht
+  274  wq
+  275  git branch
+  276  git log
+  277  git merge history
+  278  git config --global --add safe.directory 'C:/Users/CP035526/OneDrive - Capitec Bank Ltd/Desktop/git-basic-exercises
+  279   git config --global --add safe.directory *
+  280  git merge history
+  281  git config --global --add safe.directory 'C:/Users/CP035526/OneDrive - Capitec Bank Ltd/Desktop
+  282  q
+  283  !!:s^
+  284  git status
+  285  git log
+  286  git branch
+  287  git switch history
+  288  git status
+  289  ls
+  290  cat README.md
+  291  git merge master
+  292  git switch master
+  293  git pull
+  294  ls
+  295  rm README.md
+  296  rm milkshakes.md
+  297  ls
+  298  rm "git switch master"
+  299  ls
+  300  git branch --m master main
+  301  git branch -m master main
+  302  git branch
+  303  ls
+  304  git switch milkshake-flavours
+  305  ls
+  306  git status
+  307  git commit -m "updating files"
+  308  git status
+  309  git add .
+  310  git commit "updating files"
+  311  git commit -m "updating files"
+  312  git config --global --list
+  313  git config --global user.name
+  314  [200~user.name
+  315  git config --global user.name "BervelyR"
+  316  git config --global user.email traesibe@yahoo.com
+  317  git status
+  318  ls
+  319  git switch main
+  320  git branch
+  321  git branch -D milkshake-flavours
+  322  git branch -D history
+  323  git log
+  324  git reset  c6ca9cc6d43b81f29dac96d76f78d6b792a12aa3
+  325  git log
+  326  git branch milkshake-flavours
+  327  git switch milkshake-flavours
+  328  nano milkshake.md
+  329  git add .
+  330  git commit -m "added initial flavours"
+  331  git log
+  332  nano README.md
+  333  git add .
+  334  git commit -m "random README changes"
+  335  git switch main
+  336  git branch history
+  337  git switch history
+  338  history > history.txt
+  339  git add .
+  340  git commit -m "added history"
+  341  rm README.md
+  342  echo "booya" > README.md
+  343  git add .
+  344  git commit -m "rewrote README"
+  345  git log
+  346  git switch milkshake-flavours
+  347  git log
+  348  git switch main
+  349  git log
+  350  git merge milkshake-flavours
+  351  git merge history
+  352  git config --global --list
+  353  git config --global --add safe.directory 'C:/Users/CP035526/OneDrive - Capitec Bank Ltd/Desktop/git-basic-exercises'
+  354  git merge history
+  355  nano README.md
+  356  git status
+  357  git add .
+  358  git commit -m "resolved merge conflicts"
+  359  git switch history
+  360  git merge main 
+  361  git switch main
+  362  git remote add origin https://github.com/BervelyR/git-basic-exercises.git
+  363  git branch -M main
+  364  git push -u origin main
+  365  ls
+  366  rm "git switch master"
+  367  rm milkshake.md
+  368  git add .
+  369  git commit -m "removed unnecessary files"
+  370  git push
+  371  git switch milkshake-flavours
+  372  git push -u origin milkshake-flavours
+  373  git switch history
+  374  ls
+  375  rm "git switch master"
+  376  rm milkshake.md
+  377  ls
+  378  git add .
+  379  git commit -m "removed unwanted files"
+  380  git push -u origin history
+  381  git switch milkshake-flavours
+  382  ls
+  383  rm "git switch master"
+  384  rm milkshake.md
+  385  ls
+  386  git add .
+  387  git commit -m "removed unneeded files"
+  388  git push
+  389  git switch main
+  390  git pull
+  391  git merge history
+  392  git switch milkshake-flavours
+  393  git pull
+  394  git status
+  395  git push
+  396  git switch main
+  397  touch ignore-me.db
+  398  nano .gitignore
+  399  mkdir large-directory-that-should-be-local-only
+  400  cd large-directory-that-should-be-local-only
+  401  nano README.md
+  402  cd /
+  403  cd /OneDrive - Capitec Bank Ltd/Desktop/git-basic-exercises
+  404  cd '/OneDrive - Capitec Bank Ltd/Desktop/git-basic-exercises'
+  405  git status
+  406  git add .
+  407  git commit -m "added .gitignore"
+  408  git push
+  409  git push --help
+  410  git status
+  411  git pull
+  412  ls
+  413  git log
+  414  git push
+  415  git status
+  416  git add .
+  417  git commit -m "Updating If statements"
+  418  git push
+  419  ls
+  420  rm Person.class
+  421  rm PersonTest.class
+  422  ls
+  423  git add .
+  424  git commit -m " Removed class files"
+  425  git push
+  426  git branch
+  427  git switch history
+  428  ls
+  429  git status
+  430  git push -u origin history
+  431  git status
+  432  git switch milkshake-flavours
+  433  ls
+  434  git status
+  435  nano milkshakes.md
+  436  git add milkshakes.md
+  437  git push
+  438  cat milkshakes.md
+  439  git push -u origin milkshake-flavours
+  440  ls
+  441  git checkout main
+  442  git merge milkshake-flavours
+  443  ls
+  444  cat milkshakes.md
+  445  git status
+  446  git add .
+  447  git commit -m " added two more flavours"
+  448  git push
+  449  git switch history
+  450  git merge main
+  451  git status
+  452  git push
+  453  git switch milkshake-flavours
+  454  git status
+  455  ls
+  456  git push
+  457  git push -u origin milkshake-flavours
+  458  git status
+  459  git log
+  460  git switch main
+  461  git log
+  462  git switch milkshake-flavours
+  463  nano milkshakes.md
+  464  git add milkshakes.md
+  465  git push
+  466  git status
+  467  git commit -m " added two more flavours"
+  468  git push
+  469  git switch main
+  470  git merge milkshake-flavours
+  471  git branch
+  472  git switch milkshake-flavours
+  473  git status
+  474  ls
+  475  cat milkshakes.md
+  476  git push
+  477  cd
+  478  cd 'OneDrive - Capitec Bank Ltd/Desktop' 
+  479  git clone  Umuzi-org/Bervely-Teffu-963-contentitem-
+  480  git clone git@github.com:Umuzi-org/Bervely-Teffu-963-contentitem-.git
+  481  cd  'OneDrive - Capitec Bank Ltd/Desktop'
+  482  ls
+  483  git clone git@github.com:Umuzi-org/Bervely-Teffu-963-contentitem-.git
+  484  git clone https://github.com/Umuzi-org/Bervely-Teffu-963-contentitem-
+  485  cd Bervely-Teffu-963-contentitem-
+  486  ls
+  487  nano question_1.md
+  488  nano question_2.md
+  489  nano question_3.md
+  490  nano question_4.md
+  491  nano question_5.md
+  492  [200~nano question_1.md
+  493  nano question_6.md
+  494  ls
+  495  git status
+  496  ls
+  497  nano question-1.md
+  498  cat question_1.md
+  499  cd git-basic-exercises
+  500  ls -a
+  501  git init
+  502  ls -a
+  503  git status
+  504  git log
+  505  touch README.md
+  506  git add .
+  507  git commit -m "innitial commit"
+  508  nano README.md
+  509  git add .
+  510  git commit -m "Second Commit"
+  511  nano README.md
+  512  git add .
+  513  git commit -m "Third Commit"
+  514   git log
+  515  git branch milkshake-flavours
+  516  git switch milkshake-flavours
+  517  nano milkshakes.md
+  518  git add .
+  519  git commit -m "initial flavours"
+  520  nano README.md
+  521  git add .
+  522  got commit -m "random README changes"
+  523  git commit -m "random README changes"
+  524  git switch main
+  525  git switch master
+  526  git branch history
+  527  git switch history
+  528  history > history.txt
